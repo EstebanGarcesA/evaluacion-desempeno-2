@@ -1,19 +1,67 @@
-# React + Vite
+# Evidencia de Desempeno 2 - Migracion a React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositorio corresponde a la **evidencia de desempeno** del momento 2, y contiene la migracion de un proyecto maquetado en HTML/JavaScript hacia React.
 
-Currently, two official plugins are available:
+## Proyecto migrado 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Ejercicio 2 (migrado en este repositorio):** [https://maquetacion-dos.netlify.app/](https://maquetacion-dos.netlify.app/)
 
-## React Compiler
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Entregable
 
-Note: This will impact Vite dev & build performances.
+- Enlace de repositorio GitHub con la migracion del proyecto asignado (este repositorio).
 
-## Expanding the ESLint configuration
+## Cumplimiento de requisitos obligatorios
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# evaluacion-desempeno-2
+- **Fidelidad visual:** el diseno fue migrado buscando mantener una apariencia lo mas identica posible al proyecto original en HTML/JS.
+- **Arquitectura:** se utilizo el encarpetado base visto en clase (separacion en `pages`, `components`, `routes`, estilos globales y punto de entrada).
+- **Enrutamiento:** se implemento navegacion con `react-router-dom`.
+- **Componetizacion:** se desarrollaron y separaron correctamente mas de 5 componentes reutilizables.
+- **Convenciones:** se aplican convenciones de nombres:
+  - `PascalCase` para componentes.
+  - `camelCase` para variables y funciones.
+- **Control de versiones:** el repositorio debe evidenciar minimo 5 commits de desarrollo progresivo.
+- **Formulario funcional:** el formulario permite capturar datos por teclado y almacenar la informacion en `localStorage`.
+
+## Stack tecnologico
+
+- React
+- Vite
+- React Router DOM
+- Tailwind CSS
+
+## Estructura base del proyecto
+
+```txt
+src/
+  components/
+  pages/
+  routes/
+  assets/
+  main.jsx
+  index.css
+```
+
+## Como ejecutar el proyecto
+
+1. Instalar dependencias:
+
+```bash
+npm install
+```
+
+2. Ejecutar en modo desarrollo:
+
+```bash
+npm run dev
+```
+
+3. Generar build de produccion:
+
+```bash
+npm run build
+```
+
+## Nota final
+
+Esta evidencia documenta la migracion del **Ejercicio 2** a una arquitectura React con navegacion por rutas, componetizacion, convenciones de codigo y persistencia basica en formulario, de acuerdo con los criterios solicitados.
