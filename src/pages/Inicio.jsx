@@ -1,9 +1,11 @@
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
+import { Link } from "react-router-dom";
 
 const Inicio = () => {
     return (
         <div>
+
             <nav><Navbar /></nav>
             <main>
                 <div id="home-page" className="page">
@@ -16,9 +18,12 @@ const Inicio = () => {
                             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto font-light">
                                 Descubre nuestra colección exclusiva de ropa urbana minimalista
                             </p>
-                            <button onclick="showPage('products')" className="bg-amber-500 hover:bg-amber-600 text-black font-semibold py-4 px-8 rounded-none transition-all duration-300 transform hover:scale-105">
+                            <Link
+                                to="/productos"
+                                className="bg-amber-500 hover:bg-amber-600 text-black font-semibold py-4 px-8 rounded-none transition-all duration-300 transform hover:scale-105 inline-block"
+                            >
                                 EXPLORAR COLECCIÓN
-                            </button>
+                            </Link>
                         </div>
                     </section>
 
