@@ -1,7 +1,6 @@
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
-import ProductCard
-    from '../components/Cards'
+import ProductCard from '../components/Cards'
 const Productos = () => {
     return (
         <div>

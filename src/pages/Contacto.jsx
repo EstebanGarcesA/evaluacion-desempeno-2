@@ -6,9 +6,13 @@ const Contacto = () => {
         <div>
 
             <nav>
-                <Navbar /></nav>
+                <Navbar />
+            </nav>
             
-            
+            <main>
+                
+            </main>
+
             <footer>
                 <Footer />
             </footer>
